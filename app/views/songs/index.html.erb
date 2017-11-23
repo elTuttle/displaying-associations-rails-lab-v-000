@@ -1,2 +1,3 @@
-<%@songs.each do ||%>
+<%@songs.each do |s|%>
+  <p><%=s.artist_name%> - <%=s.title%></p>
 <%end%>
